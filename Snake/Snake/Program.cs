@@ -37,7 +37,7 @@ namespace Snake
 
             while (true)
             {
-                if(snake.Eat(food))
+                if (snake.Eat(food))
                 {
                     food = foodCreator.CreateFood();
                     food.Draw();
@@ -46,14 +46,14 @@ namespace Snake
                 {
                     snake.Move();
                 }
-            }
                 Thread.Sleep(100);
 
                 if (Console.KeyAvailable)
                 {
-                ConsoleKeyInfo key = Console.ReadKey();
-                snake.HandlKey(key.Key);
+                    ConsoleKeyInfo key = Console.ReadKey();
+                    snake.HandlKey(key.Key);
                 }
+            }
          }
      }
 }
