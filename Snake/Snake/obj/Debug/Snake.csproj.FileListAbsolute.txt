@@ -7,3 +7,6 @@ C:\Users\Admin\Documents\Visual Studio 2015\Projects\Snake\Snake\obj\Debug\Snake
 F:\Github\Snake\Snake\bin\Debug\Snake.exe.config
 F:\Github\Snake\Snake\obj\Debug\Snake.exe
 F:\Github\Snake\Snake\obj\Debug\Snake.pdb
+F:\Github\Snake\Snake\bin\Debug\Snake.exe
+F:\Github\Snake\Snake\bin\Debug\Snake.pdb
+F:\Github\Snake\Snake\obj\Debug\Snake.csprojResolveAssemblyReference.cache
