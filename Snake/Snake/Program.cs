@@ -29,6 +29,8 @@ namespace Snake
             {
                 if (walls.IsHit(snake) || snake.IsHitTail())
                     {
+                    Console.WriteLine("Игра окончена!");
+                    Console.ReadLine();
                     break;
                     }
 
