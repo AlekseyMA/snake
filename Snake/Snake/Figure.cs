@@ -32,7 +32,7 @@ namespace Snake
         {
             foreach (var p in pList)
             {
-                if (point.IsHit(p))
+                if (p.IsHit(point))
                     return true;
             }
             return false;
